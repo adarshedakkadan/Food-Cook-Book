@@ -20,7 +20,6 @@ class FCBHomeProductCollectionViewCell: UICollectionViewCell {
         didSet {
             self.productImageView.loadImage(with: mealsInfo.strMealThumb)
             self.productNameLabel.text = mealsInfo.strMeal
-            self.isFavorite = mealsInfo.isFavorite
         }
     }
     
