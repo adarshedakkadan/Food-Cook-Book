@@ -12,21 +12,27 @@
 		46C306C12631CB9E0022493F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C306BF2631CB9E0022493F /* Main.storyboard */; };
 		46C306C32631CBA00022493F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C306C22631CBA00022493F /* Assets.xcassets */; };
 		46C306C62631CBA00022493F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C306C42631CBA00022493F /* LaunchScreen.storyboard */; };
-		46C306D52631DE350022493F /* FCBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306D42631DE350022493F /* FCBHomeViewController.swift */; };
-		46C306D92631DE740022493F /* FCBSearchFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306D82631DE740022493F /* FCBSearchFoodViewController.swift */; };
-		46C306DC2631DF160022493F /* FCBNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306DB2631DF160022493F /* FCBNetworkManager.swift */; };
 		46C306DF2631DF360022493F /* FCBHomeFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306DE2631DF360022493F /* FCBHomeFoodService.swift */; };
-		46C306E32631DF530022493F /* FCBHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306E22631DF530022493F /* FCBHomeModel.swift */; };
 		46C306E62631DF660022493F /* FCBSearchFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306E52631DF660022493F /* FCBSearchFoodService.swift */; };
 		46C306E92631DF790022493F /* FCBSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306E82631DF790022493F /* FCBSearchModel.swift */; };
-		46C306EC2631DFE60022493F /* FCBFavoriteFoodStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306EB2631DFE60022493F /* FCBFavoriteFoodStoreController.swift */; };
-		46C306F02631E0DF0022493F /* FCBFoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306EF2631E0DF0022493F /* FCBFoodModel.swift */; };
 		46C306FC2632B9CB0022493F /* FCBHomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306FB2632B9CB0022493F /* FCBHomeCollectionViewController.swift */; };
 		46C307012632BA240022493F /* FCBHomeProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307002632BA240022493F /* FCBHomeProductCollectionViewCell.swift */; };
 		46C307052632C27F0022493F /* FCBFoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307042632C27F0022493F /* FCBFoodDetailsViewController.swift */; };
+		46C3071C2632D97D0022493F /* FCBNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3071B2632D97D0022493F /* FCBNetworkReachabilityManager.swift */; };
+		46C3071F2632D9A00022493F /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3071E2632D9A00022493F /* UIImageView+Extensions.swift */; };
+		46C307222632D9C80022493F /* FCBEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307212632D9C80022493F /* FCBEndPoints.swift */; };
+		46C307332632E17A0022493F /* FCBNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307322632E17A0022493F /* FCBNetworkManager.swift */; };
+		46C307422632E7860022493F /* FCBFoodCategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307412632E7860022493F /* FCBFoodCategoriesModel.swift */; };
+		46C3074B26330B400022493F /* FCBCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3074A26330B400022493F /* FCBCategoryService.swift */; };
+		46C3075426330EE80022493F /* FCBStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3075326330EE80022493F /* FCBStrings.swift */; };
+		46C30757263311190022493F /* FCBHomeMealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C30756263311190022493F /* FCBHomeMealModel.swift */; };
+		46C30783263322B70022493F /* FCBDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C30782263322B70022493F /* FCBDBHelper.swift */; };
+		46C30787263340FB0022493F /* FCBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C30786263340FB0022493F /* FCBSearchViewController.swift */; };
+		4798C5C9F406D5A31D22A74A /* Pods_Foody_Cook_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE46E6C0A02FD8890C7EB3D /* Pods_Foody_Cook_Book.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29871CA480A931A430C8494D /* Pods-Foody Cook Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody Cook Book.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foody Cook Book/Pods-Foody Cook Book.debug.xcconfig"; sourceTree = "<group>"; };
 		46C306B62631CB9E0022493F /* Foody Cook Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foody Cook Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C306B92631CB9E0022493F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46C306BB2631CB9E0022493F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,18 +40,24 @@
 		46C306C22631CBA00022493F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46C306C52631CBA00022493F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46C306C72631CBA00022493F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46C306D42631DE350022493F /* FCBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeViewController.swift; sourceTree = "<group>"; };
-		46C306D82631DE740022493F /* FCBSearchFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchFoodViewController.swift; sourceTree = "<group>"; };
-		46C306DB2631DF160022493F /* FCBNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBNetworkManager.swift; sourceTree = "<group>"; };
 		46C306DE2631DF360022493F /* FCBHomeFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeFoodService.swift; sourceTree = "<group>"; };
-		46C306E22631DF530022493F /* FCBHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeModel.swift; sourceTree = "<group>"; };
 		46C306E52631DF660022493F /* FCBSearchFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchFoodService.swift; sourceTree = "<group>"; };
 		46C306E82631DF790022493F /* FCBSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchModel.swift; sourceTree = "<group>"; };
-		46C306EB2631DFE60022493F /* FCBFavoriteFoodStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFavoriteFoodStoreController.swift; sourceTree = "<group>"; };
-		46C306EF2631E0DF0022493F /* FCBFoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFoodModel.swift; sourceTree = "<group>"; };
 		46C306FB2632B9CB0022493F /* FCBHomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeCollectionViewController.swift; sourceTree = "<group>"; };
 		46C307002632BA240022493F /* FCBHomeProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		46C307042632C27F0022493F /* FCBFoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFoodDetailsViewController.swift; sourceTree = "<group>"; };
+		46C3071B2632D97D0022493F /* FCBNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBNetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		46C3071E2632D9A00022493F /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		46C307212632D9C80022493F /* FCBEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBEndPoints.swift; sourceTree = "<group>"; };
+		46C307322632E17A0022493F /* FCBNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBNetworkManager.swift; sourceTree = "<group>"; };
+		46C307412632E7860022493F /* FCBFoodCategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFoodCategoriesModel.swift; sourceTree = "<group>"; };
+		46C3074A26330B400022493F /* FCBCategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBCategoryService.swift; sourceTree = "<group>"; };
+		46C3075326330EE80022493F /* FCBStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBStrings.swift; sourceTree = "<group>"; };
+		46C30756263311190022493F /* FCBHomeMealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeMealModel.swift; sourceTree = "<group>"; };
+		46C30782263322B70022493F /* FCBDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBDBHelper.swift; sourceTree = "<group>"; };
+		46C30786263340FB0022493F /* FCBSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchViewController.swift; sourceTree = "<group>"; };
+		67F7169CEDAF643E22F93C8E /* Pods-Foody Cook Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody Cook Book.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foody Cook Book/Pods-Foody Cook Book.release.xcconfig"; sourceTree = "<group>"; };
+		CCE46E6C0A02FD8890C7EB3D /* Pods_Foody_Cook_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foody_Cook_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4798C5C9F406D5A31D22A74A /* Pods_Foody_Cook_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09766067D4F0FD07086E29CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE46E6C0A02FD8890C7EB3D /* Pods_Foody_Cook_Book.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46C306AD2631CB9E0022493F = {
 			isa = PBXGroup;
 			children = (
 				46C306B82631CB9E0022493F /* Foody Cook Book */,
 				46C306B72631CB9E0022493F /* Products */,
+				75CBD662DF739EAF50FE4F4C /* Pods */,
+				09766067D4F0FD07086E29CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +101,8 @@
 		46C306B82631CB9E0022493F /* Foody Cook Book */ = {
 			isa = PBXGroup;
 			children = (
+				46C307252632D9E40022493F /* EndPoints */,
+				46C3071A2632D95F0022493F /* Utils */,
 				46C306FF2632BA0D0022493F /* View */,
 				46C306D32631DE090022493F /* Model */,
 				46C306D22631DDF20022493F /* Service */,
@@ -104,10 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				46C306FB2632B9CB0022493F /* FCBHomeCollectionViewController.swift */,
-				46C306D42631DE350022493F /* FCBHomeViewController.swift */,
-				46C306D82631DE740022493F /* FCBSearchFoodViewController.swift */,
-				46C306EB2631DFE60022493F /* FCBFavoriteFoodStoreController.swift */,
 				46C307042632C27F0022493F /* FCBFoodDetailsViewController.swift */,
+				46C30786263340FB0022493F /* FCBSearchViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -115,9 +138,9 @@
 		46C306D22631DDF20022493F /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				46C306DB2631DF160022493F /* FCBNetworkManager.swift */,
 				46C306DE2631DF360022493F /* FCBHomeFoodService.swift */,
 				46C306E52631DF660022493F /* FCBSearchFoodService.swift */,
+				46C3074A26330B400022493F /* FCBCategoryService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -125,9 +148,11 @@
 		46C306D32631DE090022493F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				46C306E22631DF530022493F /* FCBHomeModel.swift */,
+				46C3077D263321770022493F /* DB */,
 				46C306E82631DF790022493F /* FCBSearchModel.swift */,
-				46C306EF2631E0DF0022493F /* FCBFoodModel.swift */,
+				46C307322632E17A0022493F /* FCBNetworkManager.swift */,
+				46C307412632E7860022493F /* FCBFoodCategoriesModel.swift */,
+				46C30756263311190022493F /* FCBHomeMealModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +165,41 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		46C3071A2632D95F0022493F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				46C3071B2632D97D0022493F /* FCBNetworkReachabilityManager.swift */,
+				46C3071E2632D9A00022493F /* UIImageView+Extensions.swift */,
+				46C3075326330EE80022493F /* FCBStrings.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		46C307252632D9E40022493F /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				46C307212632D9C80022493F /* FCBEndPoints.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		46C3077D263321770022493F /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				46C30782263322B70022493F /* FCBDBHelper.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		75CBD662DF739EAF50FE4F4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29871CA480A931A430C8494D /* Pods-Foody Cook Book.debug.xcconfig */,
+				67F7169CEDAF643E22F93C8E /* Pods-Foody Cook Book.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46C306CA2631CBA00022493F /* Build configuration list for PBXNativeTarget "Foody Cook Book" */;
 			buildPhases = (
+				B190B849B2586479D2A36737 /* [CP] Check Pods Manifest.lock */,
 				46C306B22631CB9E0022493F /* Sources */,
 				46C306B32631CB9E0022493F /* Frameworks */,
 				46C306B42631CB9E0022493F /* Resources */,
+				72FBE21FB432D5F0FF6B1ECB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,25 +267,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72FBE21FB432D5F0FF6B1ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foody Cook Book/Pods-Foody Cook Book-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/KSToastView/KSToastView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSToastView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foody Cook Book/Pods-Foody Cook Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B190B849B2586479D2A36737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foody Cook Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46C306B22631CB9E0022493F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C306E32631DF530022493F /* FCBHomeModel.swift in Sources */,
-				46C306EC2631DFE60022493F /* FCBFavoriteFoodStoreController.swift in Sources */,
-				46C306D92631DE740022493F /* FCBSearchFoodViewController.swift in Sources */,
-				46C306DC2631DF160022493F /* FCBNetworkManager.swift in Sources */,
+				46C3071F2632D9A00022493F /* UIImageView+Extensions.swift in Sources */,
+				46C30783263322B70022493F /* FCBDBHelper.swift in Sources */,
+				46C307422632E7860022493F /* FCBFoodCategoriesModel.swift in Sources */,
+				46C3071C2632D97D0022493F /* FCBNetworkReachabilityManager.swift in Sources */,
 				46C306DF2631DF360022493F /* FCBHomeFoodService.swift in Sources */,
 				46C306BA2631CB9E0022493F /* AppDelegate.swift in Sources */,
-				46C306D52631DE350022493F /* FCBHomeViewController.swift in Sources */,
+				46C30787263340FB0022493F /* FCBSearchViewController.swift in Sources */,
 				46C306FC2632B9CB0022493F /* FCBHomeCollectionViewController.swift in Sources */,
+				46C30757263311190022493F /* FCBHomeMealModel.swift in Sources */,
+				46C307332632E17A0022493F /* FCBNetworkManager.swift in Sources */,
 				46C306BC2631CB9E0022493F /* SceneDelegate.swift in Sources */,
 				46C306E62631DF660022493F /* FCBSearchFoodService.swift in Sources */,
 				46C307012632BA240022493F /* FCBHomeProductCollectionViewCell.swift in Sources */,
+				46C3075426330EE80022493F /* FCBStrings.swift in Sources */,
+				46C307222632D9C80022493F /* FCBEndPoints.swift in Sources */,
 				46C307052632C27F0022493F /* FCBFoodDetailsViewController.swift in Sources */,
 				46C306E92631DF790022493F /* FCBSearchModel.swift in Sources */,
-				46C306F02631E0DF0022493F /* FCBFoodModel.swift in Sources */,
+				46C3074B26330B400022493F /* FCBCategoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +480,7 @@
 		};
 		46C306CB2631CBA00022493F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29871CA480A931A430C8494D /* Pods-Foody Cook Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,6 +499,7 @@
 		};
 		46C306CC2631CBA00022493F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F7169CEDAF643E22F93C8E /* Pods-Foody Cook Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

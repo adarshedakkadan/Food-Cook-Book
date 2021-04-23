@@ -7,6 +7,11 @@
 
 import Foundation
 
-final class FCBSearchFoodService {
-    
+final class FCBSearchFoodService: FCBNetworkManager <FCBSearch> {
+    func request(name: String,completion: @escaping RequestCompletion) {
+        requestUrl = FCBEndPoints.search(name: name)
+        requestMethod = .get
+        formatterRequired = false
+        super.perform(completion: completion)
+    }
 }
