@@ -56,6 +56,7 @@ extension FCBFoodDetailsViewController {
             guard let _ = self else { return }
             guard let response = result as? FCBSearchModel else {
                 KSToastView.ks_showToast(FCBStrings.errorServer)
+                SVProgressHUD.dismiss()
                 return
             }
             if response.meals.count > 0 {

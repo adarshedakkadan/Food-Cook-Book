@@ -114,6 +114,7 @@ extension FCBHomeCollectionViewController {
             guard let _ = self else { return }
             guard let response = result as? FCBHomeMealModel else {
                 KSToastView.ks_showToast(FCBStrings.errorServer)
+                SVProgressHUD.dismiss()
                 return
             }
             if response.meals.count > 0 {
@@ -148,6 +149,7 @@ extension FCBHomeCollectionViewController {
         FCBCategoryService().request { [weak self] (status, result) in
             guard let response = result as? FCBFoodCategoriesModel else {
                 KSToastView.ks_showToast(FCBStrings.errorServer)
+                SVProgressHUD.dismiss()
                 return
             }
             let categories = response.meals.shuffled()
