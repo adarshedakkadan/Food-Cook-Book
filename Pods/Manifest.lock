@@ -1,0 +1,34 @@
+PODS:
+  - DropDown (2.3.13)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - KSToastView (0.5.7)
+  - ReachabilitySwift (5.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - DropDown
+  - Kingfisher (= 5.15.8)
+  - KSToastView (= 0.5.7)
+  - ReachabilitySwift (= 5.0.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DropDown
+    - Kingfisher
+    - KSToastView
+    - ReachabilitySwift
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: e71072ffda9aef352bcc46ec882b47e03109e29d
+
+COCOAPODS: 1.5.2

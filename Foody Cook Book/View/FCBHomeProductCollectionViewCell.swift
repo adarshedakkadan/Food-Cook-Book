@@ -18,9 +18,9 @@ class FCBHomeProductCollectionViewCell: UICollectionViewCell {
     
     var mealsInfo: FCBMealDetails! {
         didSet {
-            self.productImageView.loadImage(with: value.strMealThumb)
-            self.productNameLabel.text = value.strMeal
-            self.isFavorite = value.isFavorite
+            self.productImageView.loadImage(with: mealsInfo.strMealThumb)
+            self.productNameLabel.text = mealsInfo.strMeal
+            self.isFavorite = mealsInfo.isFavorite
         }
     }
     
