@@ -45,11 +45,13 @@ class FCBHomeCollectionViewController: UICollectionViewController {
         // #warning Incomplete implementation, return the number of items
         return mealsData.count
     }
-
+    
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! FCBHomeProductCollectionViewCell
-        cell.value = self.mealsData[indexPath.row]
-        cell.delegate = self
+        if indexPath.row < mealsData.count {
+            cell.value = self.mealsData[indexPath.row]
+            cell.delegate = self
+        }
         return cell
     }
     
@@ -74,7 +76,8 @@ class FCBHomeCollectionViewController: UICollectionViewController {
         if self.favoriteMeals.count > 0 {
             self.changeMealsStatus(meals: self.favoriteMeals)
         } else {
-            KSToastView.ks_showToast(FCBStrings.errorData)
+            KSToastView.ks_showToast(FCBStrings.noFavoriteMeals)
+            self.collectionView.reloadData()
         }
     }
     
