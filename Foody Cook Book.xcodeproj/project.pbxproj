@@ -12,6 +12,18 @@
 		46C306C12631CB9E0022493F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C306BF2631CB9E0022493F /* Main.storyboard */; };
 		46C306C32631CBA00022493F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C306C22631CBA00022493F /* Assets.xcassets */; };
 		46C306C62631CBA00022493F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C306C42631CBA00022493F /* LaunchScreen.storyboard */; };
+		46C306D52631DE350022493F /* FCBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306D42631DE350022493F /* FCBHomeViewController.swift */; };
+		46C306D92631DE740022493F /* FCBSearchFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306D82631DE740022493F /* FCBSearchFoodViewController.swift */; };
+		46C306DC2631DF160022493F /* FCBNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306DB2631DF160022493F /* FCBNetworkManager.swift */; };
+		46C306DF2631DF360022493F /* FCBHomeFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306DE2631DF360022493F /* FCBHomeFoodService.swift */; };
+		46C306E32631DF530022493F /* FCBHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306E22631DF530022493F /* FCBHomeModel.swift */; };
+		46C306E62631DF660022493F /* FCBSearchFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306E52631DF660022493F /* FCBSearchFoodService.swift */; };
+		46C306E92631DF790022493F /* FCBSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306E82631DF790022493F /* FCBSearchModel.swift */; };
+		46C306EC2631DFE60022493F /* FCBFavoriteFoodStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306EB2631DFE60022493F /* FCBFavoriteFoodStoreController.swift */; };
+		46C306F02631E0DF0022493F /* FCBFoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306EF2631E0DF0022493F /* FCBFoodModel.swift */; };
+		46C306FC2632B9CB0022493F /* FCBHomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C306FB2632B9CB0022493F /* FCBHomeCollectionViewController.swift */; };
+		46C307012632BA240022493F /* FCBHomeProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307002632BA240022493F /* FCBHomeProductCollectionViewCell.swift */; };
+		46C307052632C27F0022493F /* FCBFoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C307042632C27F0022493F /* FCBFoodDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		46C306C22631CBA00022493F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46C306C52631CBA00022493F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46C306C72631CBA00022493F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C306D42631DE350022493F /* FCBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeViewController.swift; sourceTree = "<group>"; };
+		46C306D82631DE740022493F /* FCBSearchFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchFoodViewController.swift; sourceTree = "<group>"; };
+		46C306DB2631DF160022493F /* FCBNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBNetworkManager.swift; sourceTree = "<group>"; };
+		46C306DE2631DF360022493F /* FCBHomeFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeFoodService.swift; sourceTree = "<group>"; };
+		46C306E22631DF530022493F /* FCBHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeModel.swift; sourceTree = "<group>"; };
+		46C306E52631DF660022493F /* FCBSearchFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchFoodService.swift; sourceTree = "<group>"; };
+		46C306E82631DF790022493F /* FCBSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBSearchModel.swift; sourceTree = "<group>"; };
+		46C306EB2631DFE60022493F /* FCBFavoriteFoodStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFavoriteFoodStoreController.swift; sourceTree = "<group>"; };
+		46C306EF2631E0DF0022493F /* FCBFoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFoodModel.swift; sourceTree = "<group>"; };
+		46C306FB2632B9CB0022493F /* FCBHomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeCollectionViewController.swift; sourceTree = "<group>"; };
+		46C307002632BA240022493F /* FCBHomeProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBHomeProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		46C307042632C27F0022493F /* FCBFoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCBFoodDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +78,14 @@
 		46C306B82631CB9E0022493F /* Foody Cook Book */ = {
 			isa = PBXGroup;
 			children = (
+				46C306FF2632BA0D0022493F /* View */,
+				46C306D32631DE090022493F /* Model */,
+				46C306D22631DDF20022493F /* Service */,
 				46C306D02631D7780022493F /* ViewControllers */,
 				46C306CF2631D76E0022493F /* Storyboard */,
 				46C306B92631CB9E0022493F /* AppDelegate.swift */,
 				46C306BB2631CB9E0022493F /* SceneDelegate.swift */,
 				46C306C22631CBA00022493F /* Assets.xcassets */,
-				46C306C42631CBA00022493F /* LaunchScreen.storyboard */,
 				46C306C72631CBA00022493F /* Info.plist */,
 			);
 			path = "Foody Cook Book";
@@ -68,6 +94,7 @@
 		46C306CF2631D76E0022493F /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				46C306C42631CBA00022493F /* LaunchScreen.storyboard */,
 				46C306BF2631CB9E0022493F /* Main.storyboard */,
 			);
 			path = Storyboard;
@@ -76,8 +103,41 @@
 		46C306D02631D7780022493F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				46C306FB2632B9CB0022493F /* FCBHomeCollectionViewController.swift */,
+				46C306D42631DE350022493F /* FCBHomeViewController.swift */,
+				46C306D82631DE740022493F /* FCBSearchFoodViewController.swift */,
+				46C306EB2631DFE60022493F /* FCBFavoriteFoodStoreController.swift */,
+				46C307042632C27F0022493F /* FCBFoodDetailsViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		46C306D22631DDF20022493F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				46C306DB2631DF160022493F /* FCBNetworkManager.swift */,
+				46C306DE2631DF360022493F /* FCBHomeFoodService.swift */,
+				46C306E52631DF660022493F /* FCBSearchFoodService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		46C306D32631DE090022493F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46C306E22631DF530022493F /* FCBHomeModel.swift */,
+				46C306E82631DF790022493F /* FCBSearchModel.swift */,
+				46C306EF2631E0DF0022493F /* FCBFoodModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46C306FF2632BA0D0022493F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46C307002632BA240022493F /* FCBHomeProductCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +210,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C306E32631DF530022493F /* FCBHomeModel.swift in Sources */,
+				46C306EC2631DFE60022493F /* FCBFavoriteFoodStoreController.swift in Sources */,
+				46C306D92631DE740022493F /* FCBSearchFoodViewController.swift in Sources */,
+				46C306DC2631DF160022493F /* FCBNetworkManager.swift in Sources */,
+				46C306DF2631DF360022493F /* FCBHomeFoodService.swift in Sources */,
 				46C306BA2631CB9E0022493F /* AppDelegate.swift in Sources */,
+				46C306D52631DE350022493F /* FCBHomeViewController.swift in Sources */,
+				46C306FC2632B9CB0022493F /* FCBHomeCollectionViewController.swift in Sources */,
 				46C306BC2631CB9E0022493F /* SceneDelegate.swift in Sources */,
+				46C306E62631DF660022493F /* FCBSearchFoodService.swift in Sources */,
+				46C307012632BA240022493F /* FCBHomeProductCollectionViewCell.swift in Sources */,
+				46C307052632C27F0022493F /* FCBFoodDetailsViewController.swift in Sources */,
+				46C306E92631DF790022493F /* FCBSearchModel.swift in Sources */,
+				46C306F02631E0DF0022493F /* FCBFoodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
