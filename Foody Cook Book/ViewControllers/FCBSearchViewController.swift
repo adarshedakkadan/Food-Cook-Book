@@ -19,14 +19,18 @@ class FCBSearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let navBaritem = UIBarButtonItem(title: "Close", style: .plain, target: self, action: #selector(self.dismissSearch))
+        self.navigationItem.leftBarButtonItem = navBaritem
         // Do any additional setup after loading the view.
     }
 
     @IBAction func searchButton(_ sender: Any) {
         self.search(name: self.searchBar.text ?? "")
     }
-
+    
+    @objc func dismissSearch() {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 extension FCBSearchViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
